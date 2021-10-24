@@ -54,3 +54,15 @@ $ ansible-playbook -i DynamicInventory.py site.yml -u ubuntu --private-key=<PemF
 ```sh
 $ terraform destroy --auto-approve terafrom_scripts/
 ```
+c = ['ucdDeploy', 'Jenkins', 'Pipeline', 'EndToEnd']
+o = ['KT', 'Nice', 'Job', 'Guys']
+n = ['Great', 'Things', 'Deployment', 'Classes']
+g = ['Flow', 'Sessions', 'Bugs', 'Fixes']
+
+for cc in c:
+    for oo in o:
+        for nn in n:
+            for gg in g:
+                print(cc,oo,nn,gg)
+    print("Eghosa Agunu 10-24-2021")
+    print("Bye for loops!!!!!!!!!")
